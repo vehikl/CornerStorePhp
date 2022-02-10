@@ -52,7 +52,7 @@ final class CornerStore
                             }
                         }
                     } else {
-                        $item->price = $item->price - $item->price;
+                        $item->price = 0;
                     }
                 } else {
                     if ($item->price < 50) {
