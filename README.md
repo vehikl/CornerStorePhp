@@ -5,7 +5,7 @@ This is inspired by [Emily Bache's Gilded Rose](https://github.com/emilybache/Gi
 =============== Specifications ===============
 
 Basic rules:
-- All items have a daysUntilExpired value which denotes the number of days we have to sell the item 
+- All items have a days_until_expired value which denotes the number of days we have to sell the item 
 - All items have a price value which denotes how valuable the item is 
 - At the end of each day our system lowers both values for every item
 
